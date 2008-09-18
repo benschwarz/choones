@@ -1,0 +1,6 @@
+div#choones { position: absolute; bottom: 0; left: 0; right: 0; background-color: black; filter:alpha(opacity=90); -moz-opacity: 0.9; opacity: 0.9; padding: 1.2em 0 1.2em 5.5em; display: none; background-repeat: no-repeat; background-position: 1em 1.5em;}
+.success { background-image: url('/docs/images/missile-launch_32.png'); }
+.failure { background-image: url('/docs/images/bomb_32.png'); }
+div#choones h1 { font-size: 2em; }
+div#choones p { font-size: 1.2em; }
+div#choones h1, div#choones p { color: white; margin: 0; padding: 0; }

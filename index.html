@@ -3,13 +3,13 @@
 <html lang="en">
   <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <title>Toones - Monalogue messages</title>
+    <title>Choones - Monalogue messages</title>
     <link rel="stylesheet" href="/docs/css/index.css" type="text/css" media="screen" charset="utf-8">
-    <link rel="stylesheet" href="/docs/css/toones.css" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="/docs/css/choones.css" type="text/css" media="screen" charset="utf-8">
   </head>
   <body>
     <div id="wrapper">
-      <h1>Toones</h1>
+      <h1>Choones</h1>
       <h2>Supporting monologues for years to come</h2>
       
       <dl>
@@ -18,20 +18,22 @@
         <dd><a id="failure" href="#">Failure demo</a></dd>
       </dl>
     </div>
-    <div id="toones" class="success">
+    <div id="choones" class="success">
       <h1>Title</h1>
       <p>Message</p>
     </div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="/docs/js/toones.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/docs/js/choones.js" type="text/javascript" charset="utf-8"></script>
     <script type="text/javascript" charset="utf-8">
       $(function () {
         $("#success").click(function () {
-          new Toones('Success', 'You can hollar at your peeps in a flashy way');
+          $.choones('Success', 'You can hollar at your peeps in a flashy way');
         });
         $("#failure").click(function () {
-          new Toones('Boo', 'What we have here, is a failure to communicate');
+          $.choones('Boo', 'What we have here, is a failure to communicate');
         });
+        
+        $.choones("AC/DC", "Thunderstruck");
       })
     </script>
   </body>

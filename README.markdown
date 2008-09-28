@@ -32,3 +32,7 @@ Setting a 'failure' message
 
     $.choones("Megadeath", "Sad, sad sad", {type: 'failure'});
     
+## Licence
+
+All credit due to those who got here before me. Licence is MIT, use it as you wish.
+    

@@ -1,16 +1,16 @@
 #Choones
 
-Growl "Music Video" style messaging for web applications
+"Choones" is a jQuery plugin, with a little markup and some styles that mimics [Growl's](http://growl.info/)
+"Music video" theme (pop up, from the bottom - its like watching rage/mtv)
+
+![Non-imposing message display](https://github.com/benschwarz/choones/tree/master/example/screenshot.png?raw=true)
 
 ##About
 
-
 Sending messages back to the user is often something that uses some strange
-design pattern of adding a box to the top of a page, that pushes down the content or;
-  Even worse, thrown into a 'lightbox'.
+design pattern of adding a box to the top of a page, that pushes down the content or, even worse, thrown into a 'lightbox'. Choones is something that I've implemented a number of times, finally recognising this pattern I thought it was worth sharing.
 
-"Choones" is a jQuery plugin, with a little markup and some styles that mimics [Growl's](http://growl.info/)
-"Music video" theme (pop up, from the bottom - its like watching rage/mtv)
+Plans for a rails plugin that replaces flash[] messages is in the works (for regular or ajax requests). 
 
 ##Usage
 

@@ -31,7 +31,20 @@ Or you want them to dissapear a little bit quicker? (3 seconds in the example be
 Setting a 'failure' message
 
     $.choones("Megadeath", "Sad, sad sad", {type: 'failure'});
-    
+
+## Markup and Styles
+
+Markup and CSS can be taken from the example/index.html and lib/css/choones.css files respectively. 
+
+    <div id="choones" class="success">
+      <h1>Title</h1>
+      <p>Message</p>
+    </div>
+
+The markup should not really be changed whatsoever, however you can add your own classes to the elements if need be. 
+
+Styles can be changed as free as you like, the #choones element should be hidden using display: none; initially, everything else is basically pure aesthetic.
+
 ## Licence
 
 All credit due to those who got here before me. Licence is MIT, use it as you wish.

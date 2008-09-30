@@ -1,7 +1,7 @@
 body { font-size: 67.5%; font-family: Helvetica, Arial; }
 div#wrapper { width: 760px; margin: 0 auto; }
-div#wrapper h1 { font-size: 4em; margin-bottom: 0; color: #CC0000; }
-div#wrapper h2 { margin-top: 0; }
+div#wrapper h1 { font-size: 4em; margin: 0; color: #CC0000; }
+div#wrapper h2 { margin: 0; }
 div#wrapper dl { border: 1px solid #EE1100; background-color: #eee; padding: 2em; }
 div#wrapper dt { margin: 0; font-weight: bold; font-size: 1.5em; }
 div#wrapper dd { margin: 1em 1em; }

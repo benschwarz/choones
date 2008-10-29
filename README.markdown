@@ -31,6 +31,14 @@ Or you want them to dissapear a little bit quicker? (3 seconds in the example be
 Setting a 'failure' message
 
     $.choones("Megadeath", "Sad, sad sad", {type: 'failure'});
+    
+Choones settings are public and can be set globally:
+
+    $.choones.settings.display_time = 5000;
+  or
+    $.choones.settings = {...};
+
+All further calls to $.choones("Keep talking", "I'm listening"); will use the global settings
 
 ## Markup and Styles
 
